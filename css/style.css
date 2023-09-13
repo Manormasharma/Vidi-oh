@@ -1,0 +1,42 @@
+body{
+    font-family: 'Arimo', sans-serif;
+}
+.title{
+    font-family: 'Lobster Two', cursive;
+}
+.bg-light {
+    background-color: #ffffff!important;
+    border-bottom: 1px solid #D2D2D2;
+}
+.bg-primary{
+    background: #1e3988 !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1e3988;
+    border-color: #1e3988;
+}
+.btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: #1e3988;
+    border-color: #1e3988;
+}
+.site-title{
+    font-size: 30px;
+}
+.sea-green{
+    color: #09798a;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}
+.social-icon li i{
+    color: white;
+    font-size: 25px;
+}
